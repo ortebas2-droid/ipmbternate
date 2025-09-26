@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tentang Kami - IPMB</title>
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="p.png" alt="Logo IPMB">
+                <div class="logo-text">
+                    <strong>IPMB</strong>
+                    <span>Ikatan Pelajar Mahasiswa Busua </span>
+                </div>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html" class="active">Tentang Kami</a></li>
+                    <li><a href="kegiatan.html">Kegiatan</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="keanggotaan.html">Keanggotaan</a></li>
+                    <li><a href="donasi.html">Donasi</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Konten -->
+    <main class="container">
+        <h1 data-aos="fade-down">Tentang Kami</h1>
+
+        <p data-aos="fade-up" data-aos-delay="200">
+            IPMB (Ikatan Pelajar Mahasiswa Busua) dibentuk untuk mempererat tali persaudaraan mahasiswa asal Busua.
+        </p>
+
+        <h2 data-aos="fade-right">Visi</h2>
+        <p data-aos="fade-left">Menjadi wadah solidaritas, pengembangan diri, dan kontribusi nyata bagi masyarakat
+            Busua.</p>
+
+        <h2 data-aos="fade-up">Misi</h2>
+        <ul>
+            <li data-aos="fade-up" data-aos-delay="100">Membangun solidaritas antaranggota</li>
+            <li data-aos="fade-up" data-aos-delay="200">Mendukung perkembangan akademik & non-akademik</li>
+            <li data-aos="fade-up" data-aos-delay="300">Menjadi jembatan kontribusi mahasiswa untuk kampung</li>
+        </ul>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Ino Te Mefi Cope</p>
+        </div>
+    </footer>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,   // durasi animasi (ms)
+            once: true,       // animasi hanya sekali
+            offset: 100       // jarak trigger
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - IPMB</title>
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <!-- Style Utama -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Style Galeri -->
+    <link rel="stylesheet" href="css/galeri.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">
+                <img src="p.png" alt="Logo">
+                <div class="logo-text">
+                    <strong>IPMB</strong>
+                    <span>Ikatan Pelajar Mahasiswa Busua </span>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="kegiatan.html">Kegiatan</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="galeri.html" class="active">Galeri</a></li>
+                    <li><a href="keanggotaan.html">Keanggotaan</a></li>
+                    <li><a href="donasi.html">Donasi</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <div class="gallery">
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+            <a href="p.png" data-lightbox="galeri" data-title="Galeri 1">
+                <img src="p.png" alt="Galeri 1">
+            </a>
+        </div>
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+            <a href="IMG/I.png" data-lightbox="galeri" data-title="Galeri 2">
+                <img src="L.jpg" alt="Galeri 2">
+            </a>
+        </div>
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+            <a href="IMG/I.png" data-lightbox="galeri" data-title="Galeri 3">
+                <img src="M.jpg" alt="Galeri 3">
+            </a>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; Ino Te Mefi Cope</p>
+        </div>
+    </footer>
+
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+</body>
+
+</html>

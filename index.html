@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beranda - IPMB</title>
+
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header" data-aos="fade-down">
+        <div class="container header-inner">
+            <a href="index.html" class="logo" data-aos="fade-right">
+                <img src="p.png" alt="Logo IPMB">
+                <div class="logo-text">
+                    <strong>IPMB</strong>
+                    <small>Ikatan Pelajar Mahasiswa Busua</small>
+                </div>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" data-aos="fade-left">
+                <ul>
+                    <li><a href="index.html" class="active">Beranda</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="kegiatan.html">Kegiatan</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="keanggotaan.html">Keanggotaan</a></li>
+                    <li><a href="donasi.html">Donasi</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content" data-aos="zoom-in">
+            <h1 data-aos="fade-up" data-aos-delay="100">SELAMAT DATANG DI IPMB</h1>
+            <p data-aos="fade-up" data-aos-delay="300">
+                Ikatan Pelajar Mahasiswa Busua — Bersama menjaga identitas kampung & saling mendukung di perantauan.
+            </p>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="500">
+                <a href="kegiatan.html" class="btn btn-primary">Lihat Kegiatan</a>
+                <a href="keanggotaan.html" class="btn btn-secondary">Daftar Ketua Umum IPMB</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlight -->
+    <section class="highlights container">
+        <article class="card" data-aos="fade-up" data-aos-delay="100">
+            <h3>Kegiatan Terbaru</h3>
+            <p>Laporan bakti sosial dan workshop kepemimpinan.</p>
+            <a href="kegiatan.html" class="read-more">Selengkapnya →</a>
+        </article>
+        <article class="card" data-aos="fade-up" data-aos-delay="300">
+            <h3>Berita & Artikel</h3>
+            <p>Opini anggota, kabar kampung, dan pengumuman penting.</p>
+            <a href="berita.html" class="read-more">Baca Berita →</a>
+        </article>
+        <article class="card" data-aos="fade-up" data-aos-delay="500">
+            <h3>Donasi & Dukungan</h3>
+            <p>Rekening resmi dan laporan transparansi dana.</p>
+            <a href="donasi.html" class="read-more">Donasi →</a>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer" data-aos="fade-up">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Ino Te Mefi Cope</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+
+</body>
+
+</html>
